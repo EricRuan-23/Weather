@@ -1,0 +1,80 @@
+
+body {
+  background-color: #0A0A19;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+header {
+  width: 80%;
+  margin: 0 auto;
+}
+.search {
+  height: 50px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 40px;
+
+
+}
+
+.search img {
+  height: 100%;
+}
+
+.search input {
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+}
+
+.mainContent h1 {
+  font-size: 40px;  
+  margin-top: 250px;
+  
+}
+
+.column {
+  width: 55%;
+  display: inline-flex;
+  margin-left: 300px;
+
+}
+
+.temp {
+  font-size: 90px;
+  color: #FFA500;
+}
+
+.weather {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+}
+
+.textTemp {
+  
+}
+
+.informationWeather {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
